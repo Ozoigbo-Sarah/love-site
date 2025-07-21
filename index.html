@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>love Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+    <h1>Welcome to Love Island Naija</h1>
+    <p>Welcome to Love Island Naija where the vibe is right, sparks are flying, and true love can’t hide. If they don’t love you, trust us you’ll find out here. No more lies, no more “he’s just busy.” This is the place where real emotions come to light, and fake energy gets shown the door.
+     
+        💌 Now, enter your name and your partner’s name let’s reveal the truth about your love!</p>
+    
+    <div class="input-container">
+    <div class="input-group" >
+        <label for="lover 1">Lover 1:</label>
+        <input type="text" id="lover1" placeholder="your name"/>
+    </div>
+
+    <div class="input-group">
+        <label for="lover 2">Lover 2:</label>
+        <input type="text" id="lover2" placeholder="their name"/>
+    </div>
+    </div>
+    <BUtton onclick="generateLove()" class="next-btn">know the truth!</BUtton>
+
+    <div class="popup-overlay" id="popup">
+        <div class="popup-box">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <h2>Love Test Result</h2>
+            <p id="love-score"></p>
+            <p id="love-message"></p>
+
+        </div>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
