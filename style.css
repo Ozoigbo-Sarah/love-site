@@ -8,7 +8,8 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    font-family: "pacifico", cursive;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
 }
 .main-container{
     width: 70%;
